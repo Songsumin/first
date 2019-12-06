@@ -20,8 +20,14 @@ GUI 프로그램에서는 버튼과 같은 컴포넌트들을 화면에 배치�
 3) 이미지출력
 이미지를 화면에 그리는 것은 Graphics 클래스의 drawImage()를 사용한다.
  ex) ImageIcon icon = new ImageIcom ("그림의 경로");
-     img = icon.getImage();
-     public void paintComponent(Grapi
+     img = icon.getImage(); // 출력
+     
+4) 객체 저장하기
+ObjectStream클래스는 객체의 입출력을 지원한다. 이 클래스를 이용하면 객체를 파일에 저장할 수 있고 또 반대로 파일에 저장된 객체를 읽어들일 수 있다. 물론 네트워크를 통하여 다른 곳에 보내거나 받는 것도 가능하다.
+
+
+
+     
 
 
 
